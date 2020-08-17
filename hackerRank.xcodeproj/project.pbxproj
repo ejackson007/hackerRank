@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		20514B4124EA0AD000F82DFD /* hackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		20514B4424EA0AD000F82DFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		20514B4B24EA0D1400F82DFD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +58,18 @@
 		20514B4324EA0AD000F82DFD /* hackerRank */ = {
 			isa = PBXGroup;
 			children = (
-				20514B4424EA0AD000F82DFD /* main.cpp */,
+				20514B4C24EA0D1C00F82DFD /* Coin Change */,
+				20514B4B24EA0D1400F82DFD /* README.md */,
 			);
 			path = hackerRank;
+			sourceTree = "<group>";
+		};
+		20514B4C24EA0D1C00F82DFD /* Coin Change */ = {
+			isa = PBXGroup;
+			children = (
+				20514B4424EA0AD000F82DFD /* main.cpp */,
+			);
+			path = "Coin Change";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
